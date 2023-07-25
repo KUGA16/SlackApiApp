@@ -45,3 +45,6 @@ Temporary Items
 
 # Go workspace file
 go.work
+
+### その他 ###
+.env
