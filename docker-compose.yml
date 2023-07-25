@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  slackapiapp:
+    build: ./
+    container_name: "slack_api_app"
+    image: "slack_api_app"
+    volumes:
+      - ./:/go/src/slackApiApp/
+    ports:
+      - "8080:8080"
+    tty: true
+    stdin_open: true
